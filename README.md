@@ -17,6 +17,7 @@ $ git config --global color.ui auto
 # Habilita la útil colorización del producto de la línea de comando
 
 ## Crear Repositorio
+Inicia un nuevo repositorio u obtiene uno de una URL existente:
 
 $ git init [project-name]
 # Crea un nuevo repositorio local con el nombre especificado
@@ -25,6 +26,7 @@ $ git clone [url]
 # Descarga un proyecto y toda su historia de versión
 
 ## Efectuar Cambios
+Revisa las ediciones y elabora una transacción de commit:
 
 $ git status
 # Enumera todos los archivos nuevos o modificados que se deben confirmar
@@ -140,19 +142,3 @@ $ git pull
 # Descarga el historial del marcador e incorpora cambios
 
 
-<style>
-  body {
-    background-color: #2e2e2e;
-    color: #d3d3d3;
-    font-family: Arial, sans-serif;
-  }
-  h1, h2 {
-    color: #f0f0f0;
-  }
-  code {
-    background-color: #1e1e1e;
-    color: #d3d3d3;
-    padding: 2px 5px;
-    border-radius: 3px;
-  }
-</style>
